@@ -1,0 +1,31 @@
+{
+  "name": "prettier-plugin-typst",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "types": "./lib/types/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sjfhsjfh/prettier-plugin-typst.git"
+  },
+  "keywords": [
+    "typst"
+  ],
+  "author": "sjfhsjfh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sjfhsjfh/prettier-plugin-typst/issues"
+  },
+  "homepage": "https://github.com/sjfhsjfh/prettier-plugin-typst#readme",
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "typescript": "^5.4.3"
+  }
+}
